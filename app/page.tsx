@@ -16,7 +16,7 @@ function Page() {
       initial={`hidden`}
       whileInView={`show`}
       viewport={{ once: false, amount: 0.75 }}
-      className={`relative flex  w-full flex-col bg-grid-neutral-300/[0.03] bg-neutral-700`}
+      className={`flex w-full flex-col`}
     >
       {/*Nav Section*/}
       <div className={`flex w-full flex-col items-center px-5`}>
